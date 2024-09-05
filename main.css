@@ -1,0 +1,117 @@
+.section1{
+    background-color: rgb(242, 235, 228);
+}
+
+.section2{
+    background-color: rgb(242, 235, 228);
+}
+
+.section3{
+    background-color: rgb(242, 235, 228);
+}
+
+.header{
+    margin: 50px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(247, 239, 229);
+    padding: 10px;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.navlist ul{
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.navlist a{
+    color: rgb(15, 11, 15);
+    text-decoration: none;
+    padding: 10px;
+    display:block;
+    text-align: center;
+}
+
+.navlist a:hover{
+    background-color: rgb(110, 106, 106);
+}
+
+.navlist li{
+    margin right: 20px;
+}
+
+button{
+    border-radius: 20px; padding: 5px; width: 70px;margin-left: 10px;
+}
+
+/* Styling for section layout */
+#sec {
+    display: flex; /* Align items side by side */
+    justify-content: space-between; /* Add space between the text and image */
+    padding: 20px;
+}
+
+.sec1text {
+    width: 50%; /* Take 50% of the container's width for the text */
+    padding-right: 5px; /* Add space between the text and image */
+}
+
+.sec1pic img{
+    width: 100%; /* Image takes full width of its container */
+    max-width: 400px; /* Optional: Limit the image width */
+    height: auto; /* Maintain image aspect ratio */
+    margin-right: 80px;
+}
+
+/* Flexbox layout for sections */
+section {
+    display: flex;
+    padding: 20px;
+}
+
+.sec2pic {
+    order: -1; /* Move the image to the left */
+    width: 50%; /* Take half the width for the image */
+
+}
+
+.sec2pic img {
+    width: 100%; /* Image takes full width of its container */
+    max-width: 400px; /* Optional: Limit the image width */
+    height: auto; /* Keep the image ratio */
+}
+
+.sec2text {
+    width: 50%; /* Take half the width for text */
+    padding-left: 20px; /* Add space between image and text */
+}
+
+
+
+.sec3text {
+    width: 80%; /* Take half the width for text */
+    padding-right: 20px; /* Add space between text and image */
+}
+
+.sec3pic {
+    width: 50%; /* Take half the width for the image */
+}
+
+.sec3pic img {
+    width: 100%; /* Image takes full width of its container */
+    max-width: 400px; /* Optional: Limit the image width */
+    height: auto; /* Keep the image ratio */
+    margin-right: 30px;
+}
+
+
